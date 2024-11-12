@@ -129,6 +129,7 @@ hoverText.addEventListener('click', () => {
         
         updateNumbers(); 
     }
+    https://aytacqadirzada.github.io/project---Copy--2-/
 });
 
 let mainText=document.querySelector('.add-text');
@@ -206,10 +207,11 @@ mainText.addEventListener('touchstart', () => {
         
         updateNumbers(); 
     }
+    addInput.value = "";
 });
 
 mainPlus.addEventListener("touchstart",() =>{
-    addInput.value="";
+    https://aytacqadirzada.github.io/project---Copy--2-/
     input.classList.toggle('dis-none');
 })
 
