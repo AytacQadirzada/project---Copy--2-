@@ -58,6 +58,8 @@ hoverPlus.addEventListener("click",() =>{
     input.classList.toggle("dis-none");
 })
 hoverText.addEventListener('click', () => {
+    input.classList.add("dis-none");
+
         if (addInput.value.trim() === "") {
             return;
     }
@@ -129,13 +131,14 @@ hoverText.addEventListener('click', () => {
         
         updateNumbers(); 
     }
-    https://aytacqadirzada.github.io/project---Copy--2-/
+    addInput.value="";
+
 });
 
 let mainText=document.querySelector('.add-text');
 let mainPlus=document.querySelector('.add-plus');
 mainText.addEventListener('touchstart', () => {
-    
+    input.classList.add("dis-none");
     if (addInput.value.trim() === "") {
         return;
     }
@@ -211,7 +214,7 @@ mainText.addEventListener('touchstart', () => {
 });
 
 mainPlus.addEventListener("touchstart",() =>{
-    https://aytacqadirzada.github.io/project---Copy--2-/
+    addInput.value="";
     input.classList.toggle('dis-none');
 })
 
