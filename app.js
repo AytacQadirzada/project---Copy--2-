@@ -138,11 +138,11 @@ hoverText.addEventListener('click', () => {
 let mainText=document.querySelector('.add-text');
 let mainPlus=document.querySelector('.add-plus');
 mainText.addEventListener('touchstart', () => {
-    input.classList.add("dis-none");
     if (addInput.value.trim() === "") {
         return;
     }
     else{
+        input.classList.add("dis-none");
         let mainBlock = document.createElement("div");
         mainBlock.classList.add("main-block");
 
@@ -209,8 +209,8 @@ mainText.addEventListener('touchstart', () => {
         });
         
         updateNumbers(); 
+        addInput.value = "";
     }
-    addInput.value = "";
 });
 
 mainPlus.addEventListener("touchstart",() =>{
