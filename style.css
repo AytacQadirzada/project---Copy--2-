@@ -82,7 +82,7 @@ input:focus{
 }
 .add-text{
     font-size: 16px;
-    padding: 14px 23px 13px 10px;
+    padding: 14px 23px 13px 5px;
 }
 .add-hover-plus{
     font-size: 18px;
@@ -93,7 +93,7 @@ input:focus{
 }
 .add-hover-text{
     font-size: 16px;
-    padding: 14px 23px 13px 10px;
+    padding: 14px 23px 13px 5px;
 }
 .a-z-gray{
     margin-top: 16px;
@@ -137,6 +137,8 @@ input:focus{
     display: flex;
     gap: 12px;
     align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 .main-block{
     display: flex;
@@ -229,7 +231,7 @@ input:focus{
     }
     .add-text{
         font-size: 16px;
-        padding: 14px 23px 13px 10px;
+        padding: 14px 23px 13px 5px;
     }
     .add-hover-plus{
         font-size: 18px;
@@ -240,7 +242,7 @@ input:focus{
     }
     .add-hover-text{
         font-size: 16px;
-        padding: 14px 23px 13px 10px;
+        padding: 14px 23px 13px 5px;
     }
     .clear-gray{
         margin-right: 20px;
@@ -274,6 +276,8 @@ input:focus{
         display: flex;
         gap: 12px;
         align-items: center;
+        word-wrap: break-word;
+        word-break: break-all;
     }
     .main-block{
         display: flex;
