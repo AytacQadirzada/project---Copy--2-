@@ -74,6 +74,7 @@ input:focus{
     color: white;
 }
 .add-plus{
+    color: white;
     font-size: 18px;
     background-color: #AA68FE;
     border: 0.5px solid #AA68FE;
@@ -81,10 +82,15 @@ input:focus{
     border-radius: 50%; 
 }
 .add-text{
+    color: white;
+    background-color: #9953F1;
+    border: 0.5px solid #9953F1;
+    border-radius: 25px;
     font-size: 16px;
     padding: 14px 23px 13px 5px;
 }
 .add-hover-plus{
+    color: white;
     font-size: 18px;
     background-color: #8F55D9;
     border: 0.5px solid #8F55D9;
@@ -92,6 +98,10 @@ input:focus{
     border-radius: 50%; 
 }
 .add-hover-text{
+    color: white;
+    border-radius: 25px;
+    background-color: #7643B8;
+    border: 0.5px solid #7643B8;
     font-size: 16px;
     padding: 14px 23px 13px 5px;
 }
@@ -219,10 +229,11 @@ input:focus{
         margin-top: 18px;
         margin-bottom: 19px;
         border-radius: 25px;
-        background-color: #9953F1;
+        background-color: #7643B8;
         color: white;
     }
     .add-plus{
+        color: white;
         font-size: 18px;
         background-color: #AA68FE;
         border: 0.5px solid #AA68FE;
@@ -230,17 +241,26 @@ input:focus{
         border-radius: 50%; 
     }
     .add-text{
+        color: white;
+        background-color: #9953F1;
+        border: 0.5px solid #9953F1;
+        border-radius: 25px;
         font-size: 16px;
         padding: 14px 23px 13px 5px;
     }
     .add-hover-plus{
+        color: white;
         font-size: 18px;
-        background-color: #AA68FE;
-        border: 0.5px solid #AA68FE;
+        background-color: #8F55D9;
+        border: 0.5px solid #8F55D9;
         padding: 13px 18px;
         border-radius: 50%; 
     }
     .add-hover-text{
+        color: white;
+        border-radius: 25px;
+        background-color: #7643B8;
+        border: 0.5px solid #7643B8;
         font-size: 16px;
         padding: 14px 23px 13px 5px;
     }

@@ -55,7 +55,7 @@ let hoverPlus=document.querySelector(".add-hover-plus");
 
 hoverPlus.addEventListener("click",() =>{
     addInput.value="";
-    input.classList.toggle("dis-none");
+    input.classList.remove("dis-none");
 })
 hoverText.addEventListener('click', () => {
     
@@ -217,7 +217,7 @@ mainText.addEventListener('touchstart', () => {
 
 mainPlus.addEventListener("touchstart",() =>{
     addInput.value="";
-    input.classList.toggle('dis-none');
+    input.classList.remove("dis-none");
 })
 
 
