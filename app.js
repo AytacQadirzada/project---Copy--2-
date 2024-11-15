@@ -43,7 +43,7 @@ clearGray.addEventListener('touchstart',() =>{
 
 let block= document.querySelector(".block");
 
-function updateNumbers() {
+function updateNumbers(){
     const numbers = document.querySelectorAll(".number");
     numbers.forEach((number, index) => {
         number.textContent = (index + 1) + "."; 
