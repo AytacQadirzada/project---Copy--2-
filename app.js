@@ -116,6 +116,7 @@ hoverText.addEventListener('click', () => {
             if (block.innerHTML === "") {
                 block.classList.toggle("dis-none");
                 block.classList.toggle("new-block");
+                input.classList.remove("dis-none");
             }
             updateNumbers();
         });
@@ -125,6 +126,7 @@ hoverText.addEventListener('click', () => {
             if (block.innerHTML === "") {
                 block.classList.toggle("dis-none");
                 block.classList.toggle("new-block");
+                input.classList.remove("dis-none");
             }
             updateNumbers();
         });
@@ -196,6 +198,7 @@ mainText.addEventListener('touchstart', () => {
             if (block.innerHTML === "") {
                 block.classList.toggle("dis-none");
                 block.classList.toggle("new-block");
+                input.classList.remove("dis-none");
             }
             updateNumbers();
         });
@@ -205,6 +208,7 @@ mainText.addEventListener('touchstart', () => {
             if (block.innerHTML === "") {
                 block.classList.toggle("dis-none");
                 block.classList.toggle("new-block");
+                input.classList.remove("dis-none");
             }
             updateNumbers();
         });
